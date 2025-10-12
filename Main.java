@@ -3,9 +3,9 @@ package main;
 import java.util.Scanner;
 class Stack
 {
- final int N=5;
- int stack[]=new int[N];
- int top=-1;
+ final int N=5;//declaring the size of array
+ int stack[]=new int[N];//creating an array
+ int top=-1;//declaring an empty stack
  Scanner keyboard=new Scanner(System.in);
  //push function
  void push()
@@ -116,3 +116,4 @@ public class Main
     }
     
 }
+
